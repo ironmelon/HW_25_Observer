@@ -16,6 +16,8 @@ class ThirdVCNotificationName: UIViewController {
         super.viewDidLoad()
     }
 
+    // MARK: Actions
     @IBAction private func sentNotify(_ sender: Any) {
+        NotificationCenter.default.post(name: Constants.thirdVCNotificationName, object: nil)
     }
 }

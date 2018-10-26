@@ -15,6 +15,7 @@
 		E3529483218388EB003BCF2D /* FirstVCNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3529482218388EB003BCF2D /* FirstVCNotificationName.swift */; };
 		E352948521838906003BCF2D /* SecondVCNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352948421838906003BCF2D /* SecondVCNotificationName.swift */; };
 		E35294872183891C003BCF2D /* ThirdVCNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35294862183891C003BCF2D /* ThirdVCNotificationName.swift */; };
+		E352948921839A14003BCF2D /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352948821839A14003BCF2D /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		E3529482218388EB003BCF2D /* FirstVCNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVCNotificationName.swift; sourceTree = "<group>"; };
 		E352948421838906003BCF2D /* SecondVCNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCNotificationName.swift; sourceTree = "<group>"; };
 		E35294862183891C003BCF2D /* ThirdVCNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVCNotificationName.swift; sourceTree = "<group>"; };
+		E352948821839A14003BCF2D /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				E3529482218388EB003BCF2D /* FirstVCNotificationName.swift */,
 				E352948421838906003BCF2D /* SecondVCNotificationName.swift */,
 				E35294862183891C003BCF2D /* ThirdVCNotificationName.swift */,
+				E352948821839A14003BCF2D /* Constants.swift */,
 				E352947321837910003BCF2D /* Main.storyboard */,
 				E35294762183792F003BCF2D /* Assets.xcassets */,
 				E35294782183792F003BCF2D /* LaunchScreen.storyboard */,
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E352948921839A14003BCF2D /* Constants.swift in Sources */,
 				E35294872183891C003BCF2D /* ThirdVCNotificationName.swift in Sources */,
 				E352947021837910003BCF2D /* AppDelegate.swift in Sources */,
 				E352948521838906003BCF2D /* SecondVCNotificationName.swift in Sources */,
