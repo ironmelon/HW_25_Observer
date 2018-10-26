@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		3CAC63A4F4CA4F6EDD7F8BC1 /* Pods_HW_25_Observer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CCA1BE5F1A8A7331FC9FB85 /* Pods_HW_25_Observer.framework */; };
 		E352947021837910003BCF2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352946F21837910003BCF2D /* AppDelegate.swift */; };
-		E352947221837910003BCF2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352947121837910003BCF2D /* ViewController.swift */; };
 		E352947521837910003BCF2D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E352947321837910003BCF2D /* Main.storyboard */; };
 		E35294772183792F003BCF2D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E35294762183792F003BCF2D /* Assets.xcassets */; };
 		E352947A2183792F003BCF2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E35294782183792F003BCF2D /* LaunchScreen.storyboard */; };
+		E3529483218388EB003BCF2D /* FirstVCNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3529482218388EB003BCF2D /* FirstVCNotificationName.swift */; };
+		E352948521838906003BCF2D /* SecondVCNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E352948421838906003BCF2D /* SecondVCNotificationName.swift */; };
+		E35294872183891C003BCF2D /* ThirdVCNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35294862183891C003BCF2D /* ThirdVCNotificationName.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,11 +23,13 @@
 		D095693CE66AED3931BAC5CC /* Pods-HW_25_Observer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HW_25_Observer.release.xcconfig"; path = "Pods/Target Support Files/Pods-HW_25_Observer/Pods-HW_25_Observer.release.xcconfig"; sourceTree = "<group>"; };
 		E352946C21837910003BCF2D /* HW_25_Observer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HW_25_Observer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E352946F21837910003BCF2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E352947121837910003BCF2D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E352947421837910003BCF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E35294762183792F003BCF2D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E35294792183792F003BCF2D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E352947B2183792F003BCF2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3529482218388EB003BCF2D /* FirstVCNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVCNotificationName.swift; sourceTree = "<group>"; };
+		E352948421838906003BCF2D /* SecondVCNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVCNotificationName.swift; sourceTree = "<group>"; };
+		E35294862183891C003BCF2D /* ThirdVCNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVCNotificationName.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +75,9 @@
 			isa = PBXGroup;
 			children = (
 				E352946F21837910003BCF2D /* AppDelegate.swift */,
-				E352947121837910003BCF2D /* ViewController.swift */,
+				E3529482218388EB003BCF2D /* FirstVCNotificationName.swift */,
+				E352948421838906003BCF2D /* SecondVCNotificationName.swift */,
+				E35294862183891C003BCF2D /* ThirdVCNotificationName.swift */,
 				E352947321837910003BCF2D /* Main.storyboard */,
 				E35294762183792F003BCF2D /* Assets.xcassets */,
 				E35294782183792F003BCF2D /* LaunchScreen.storyboard */,
@@ -196,8 +202,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E352947221837910003BCF2D /* ViewController.swift in Sources */,
+				E35294872183891C003BCF2D /* ThirdVCNotificationName.swift in Sources */,
 				E352947021837910003BCF2D /* AppDelegate.swift in Sources */,
+				E352948521838906003BCF2D /* SecondVCNotificationName.swift in Sources */,
+				E3529483218388EB003BCF2D /* FirstVCNotificationName.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
